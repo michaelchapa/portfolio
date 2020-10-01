@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bd40a7aa.chunk.css",
+    "main.js": "/portfolio/static/js/main.1d269021.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1d269021.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c34b28cb.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c34b28cb.js.map",
+    "static/js/2.3d832c26.chunk.js": "/portfolio/static/js/2.3d832c26.chunk.js",
+    "static/js/2.3d832c26.chunk.js.map": "/portfolio/static/js/2.3d832c26.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.77fa0f5e3432e2a17ed9e4322506c501.js": "/portfolio/precache-manifest.77fa0f5e3432e2a17ed9e4322506c501.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.bd40a7aa.chunk.css.map": "/portfolio/static/css/main.bd40a7aa.chunk.css.map",
+    "static/js/2.3d832c26.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3d832c26.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/manteca_cat_ghost.073abd06.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c34b28cb.js",
+    "static/js/2.3d832c26.chunk.js",
+    "static/css/main.bd40a7aa.chunk.css",
+    "static/js/main.1d269021.chunk.js"
+  ]
+}
