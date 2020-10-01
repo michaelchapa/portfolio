@@ -1,38 +1,115 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+.header h1 {
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1vw;
+  font-size: 12vw;
+}
+
+.header {
+  float: left;
+  width: 100%;
+  height: 35%;
   text-align: center;
+  color: #10686827;
+  font-family: 'IBM Plex Mono', monospace;
+  overflow: hidden;
+  transition: background-image 2s;
+  padding: 0 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header:hover {
+  background-image: url('aqua.gif');
+  color: whitesmoke;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu {
+  float: left;
+  width: 40%;
+  height: 65%;
+  text-align: center;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.menu a {
+  background-color: white;
+  padding-top: 0;
+  display: block;
+  width: 100%;
+  height: 25%;
+  color: #c7c7c7; 
+  font-family: 'Cute Font', cursive;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.7s;
+  font-size: 13vh;
+}
+
+.menu a:hover {
+  background-color: hsla(330, 100%, 58%, 0.568);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  float: left;
+  width: 60%;
+  height: 65%;
+  padding: 3.3% 3% 0 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main p {
+  margin-top: 0;
+  margin-bottom: 2.5vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 145%;
+  text-indent: 45px;
+}
+
+.main:hover {
+  background-image: url('manteca_cat_ghost.jpg');
+  background-size: cover;
+  color: hsla(330, 100%, 58%, 1);
+}
+
+.main p:hover {
+  background-color: inherit;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For Mobile: */
+  .menu, .main .header {
+    overflow: hidden;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header h1 {
+    display: block;
+    margin-top: .5em;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .main {
+    margin: 0;
+    padding: 5% 4% 1% 5%;
+    line-height: 1.4;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main:hover {
+    background-image: url('aqua_gold.gif');
+    background-size: cover;
+    color: white;
+    background-color: black;
+  }
+
+  .main p:hover {
+    color: inherit;
   }
 }
