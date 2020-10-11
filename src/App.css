@@ -87,6 +87,12 @@
     width: 100%;
   }
 
+  .header {
+    background-image: url('aqua.gif');
+    color: whitesmoke;
+    background-size: cover;
+  }
+
   .header h1 {
     display: block;
     margin-top: .5em;
@@ -100,6 +106,7 @@
     line-height: 1.4;
     width: 100%;
     height: 100%;
+    cursor: pointer;
   }
 
   .main:hover {
